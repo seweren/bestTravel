@@ -1,0 +1,28 @@
+{
+  "name": "best-travel",
+  "version": "1.0.0",
+  "description": "Solution for codewars' Best travel problem",
+  "main": "BestTravel.js",
+  "scripts": {
+    "lint": "tslint *.ts",
+    "build": "tsc",
+    "test": "mocha --require ts-node/register \"test/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seweren/bestTravel.git"
+  },
+  "keywords": [
+    "codewars"
+  ],
+  "author": "seweren",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.21",
+    "mocha": "^5.2.0",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  }
+}

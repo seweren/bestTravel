@@ -1,0 +1,14 @@
+{
+    "editor.autoIndent": true,
+    "editor.detectIndentation": true,
+    "editor.formatOnSave": true,
+    "tslint.run": "onSave",
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+    "tslint.autoFixOnSave": true,
+    "typescript.format.enable": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "typescriptHero.imports.organizeOnSave": true,
+    "typescriptHero.imports.stringQuoteStyle": "\"",
+    "vim.autoindent": true,
+}
