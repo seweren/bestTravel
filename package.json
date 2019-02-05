@@ -5,6 +5,7 @@
   "main": "BestTravel.js",
   "scripts": {
     "lint": "tslint *.ts",
+    "prebuild": "npm run lint",
     "build": "tsc",
     "test": "mocha --require ts-node/register \"test/**/*.ts\""
   },

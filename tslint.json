@@ -4,6 +4,17 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "variable-name": {
+            "options": "allow-leading-underscore"
+        },
+        "align": [
+            true,
+            "arguments",
+            "statements",
+            "members",
+            "elements"
+        ],
+    },
     "rulesDirectory": []
 }
