@@ -4,7 +4,7 @@
   "description": "Solution for codewars' Best travel problem",
   "main": "BestTravel.js",
   "scripts": {
-    "lint": "tslint *.ts",
+    "tslint": "tslint \"{src, test}/**/*.ts\"",
     "prebuild": "npm run lint",
     "build": "tsc",
     "test": "mocha --require ts-node/register \"test/**/*.ts\""

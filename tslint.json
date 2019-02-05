@@ -5,16 +5,18 @@
     ],
     "jsRules": {},
     "rules": {
-        "variable-name": {
-            "options": "allow-leading-underscore"
-        },
+        "variable-name": [
+            true,
+            "allow-leading-underscore"
+        ],
         "align": [
             true,
-            "arguments",
-            "statements",
+            "elements",
             "members",
-            "elements"
+            "statements"
         ],
+        "arrow-parens": false,
+        "prefer-for-of": false
     },
     "rulesDirectory": []
 }
