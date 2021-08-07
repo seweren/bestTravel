@@ -15,6 +15,7 @@ export class BestTravel {
 
 }
 
+
 export const variations = (n: number, k: number, a: number[][]): number[][] => {
     if (k === 0) {
         return a;
