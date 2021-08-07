@@ -1,2 +1,2 @@
 # bestTravel
-codewars best   travel solution
+codewars bes travel solution
