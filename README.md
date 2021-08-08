@@ -1,2 +1,2 @@
 # bestTravel
-codewars bes trav el solution
+codewars bestrav el solution
